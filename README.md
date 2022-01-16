@@ -1,6 +1,8 @@
 # core-code
 Martes
+
 Java es compilado o interpretado:
+
 Es ambos a la vez. Con el compilador se convierte el código fuente que reside en archivos cuya extensión es .java, a un conjunto de instrucciones que recibe el nombre de bytecodes que se guardan en un archivo cuya extensión es .class. Estas son independientes del tipo de ordenador. El intérprete las ejecuta en un ordenador específico. Solamente es necesario, compilar una vez el programa, pero se interpreta cada vez que se ejecuta en un ordenador.
 
 Crear un algoritmo:
@@ -19,6 +21,7 @@ Crear un algoritmo:
  
  
  Porque el pseudocodigo es util:
+ 
  Porque se puede escribir de una forma que se sienta uno más familiarizado, donde uno puede poner las reglas sin tener que usar 
  mucho conocimiento tecnico
  
@@ -37,6 +40,7 @@ Crear un algoritmo:
   por medio de un diagrama, y con esto lograr entenderlo de una manera más simple.
  
  Miércoles
+ 
  2 Mi año de nacimiento en binario, decimal y hexadecimal
  Decimal 1995
  Binario 11111001011
