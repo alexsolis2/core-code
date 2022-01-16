@@ -42,11 +42,15 @@ Crear un algoritmo:
  Miércoles
  
  2 Mi año de nacimiento en binario, decimal y hexadecimal
+ 
  Decimal 1995
+ 
  Binario 11111001011
+ 
  Hexadecimal 7cb
  
  3 Convertir 51966 a hexadecimal y binario
+ 
  hexadecimal cafe
  binario 1100101011111110
  
@@ -82,6 +86,7 @@ Crear un algoritmo:
 		syscall
     
  5.2 Crear un programa para desplegar el nombre
+ 
   .data
     message: .asciiz "\nHi my name is Alex\n"
   .text
@@ -90,7 +95,12 @@ Crear un algoritmo:
       la $a0, message
       syscall
  
+ Aplicaciones reales de Javascript
  
+ Se puede hacer casi cualquier cosa en javascript, carruseles, galerias de imágenes, diseños fluctuantes, y respuestas a las pulsaciones de botones. 
+ Con más experiencia, se pueden crear juegos, animaciones 2D y gráficos 3D, aplicaciones integradas basadas en bases de datos
+
+
  
  
 Core Code bootcamp
