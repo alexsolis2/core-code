@@ -56,44 +56,53 @@ Crear un algoritmo:
  
  5.1 crear un programa para sumar 2 numeros
  
- .data
-	number1: .asciiz "\nIngrese el primer numero: "
-	number2: .asciiz "\nIngrese el segundo numero: "
-.text
+  .data
+	
+       number1: .asciiz "\nIngrese el primer numero: "
+	
+       number2: .asciiz "\nIngrese el segundo numero: "
+  
+  .text
 	main:
-		li $v0, 4
-		la $a0, number1
-		syscall
+	
+	    li $v0, 4
+	    la $a0, number1
+	    syscall
 
-		li $v0, 5
-		syscall
+	    li $v0, 5
+	    syscall
 
-		move $t0, $v0
+	    move $t0, $v0
 
-		li $v0, 4
-		la $a0, number2
-		syscall
+	    li $v0, 4
+	    la $a0, number2
+	    syscall
 
-		li $v0, 5
-		syscall
+	    li $v0, 5
+	    syscall
 
-		move $t1, $v0
+	     move $t1, $v0
 		
-		add $t2, $t0, $t1
+	     add $t2, $t0, $t1
 
-		li $v0, 1
-		move $a0, $t2
-		syscall
+	     li $v0, 1
+	     move $a0, $t2
+	     syscall
+	     
     
  5.2 Crear un programa para desplegar el nombre
  
   .data
-    message: .asciiz "\nHi my name is Alex\n"
-  .text
-    main:
-      li $v0, 4
-      la $a0, message
-      syscall
+  
+       message: .asciiz "\nHi my name is Alex\n"
+  
+  .text 
+  
+       main:
+       
+           li $v0, 4
+           la $a0, message
+           syscall
  
  Aplicaciones reales de Javascript
  
