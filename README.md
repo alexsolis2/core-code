@@ -110,6 +110,14 @@ Crear un algoritmo:
  Con más experiencia, se pueden crear juegos, animaciones 2D y gráficos 3D, aplicaciones integradas basadas en bases de datos
 
 
- 
+Javascript - Week 2
+
+Week challenges (Tuesday) 
+
+https://www.codewars.com/kata/50654ddff44f800200000004
+https://www.codewars.com/kata/572b6b2772a38bc1e700007a
+https://www.codewars.com/kata/55ad04714f0b468e8200001c
+https://www.codewars.com/kata/551f37452ff852b7bd000139
+https://www.codewars.com/kata/5ad0d8356165e63c140014d4
  
 Core Code bootcamp
