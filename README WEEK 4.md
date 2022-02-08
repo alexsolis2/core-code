@@ -3,11 +3,14 @@ npm,npx & Typescript - Week 4
 Week challenges (Tuesday) 
 
 Find the odd int
+
 Stop gninnipS My sdroW!
+
 
 Week challenges (Wednesday)
 
 Array.diff
+
 Create Phone Number
 
 Week challenges (Thursday) 
@@ -19,9 +22,13 @@ Find the missing letter
 Find the unique number
 
 function findUniq(arr) {
+
   var rep = []
+  
   arr = arr.sort();
+  
   console.log("Primer Array: "+arr)
+  
   while(arr.length !== 0)
     {
       var actual = arr[0];
@@ -38,8 +45,10 @@ function findUniq(arr) {
           console.log("unico: "+actual)
           return (actual)
         }
+        
      else 
        {
+       
          if (arr.includes(actual) && rep.includes(actual) === false)
           {
          rep.push(actual)
@@ -52,6 +61,7 @@ function findUniq(arr) {
        }
       
     }
+    
   if (rep.length == 1){
     console.log(NaN);
     return NaN;
@@ -61,31 +71,37 @@ function findUniq(arr) {
 Reverse or rotate?
 
 function cubessum(string){
+
   var sum = 0;
   for (let i = 0; i<string.length; i++)
     {
       sum = sum + Math.pow((parseInt(string[i],10)),3);
     }
   console.log(sum);
+  
   if (sum%2===0)
     {
       string = string.split('').reverse().join('');
     }
+    
   else
     {
       string = string + string[0]
       string = string.slice(1)
     }
+    
   console.log(string)
   return string
 }
 
 
 function revrot(str, sz) {
+
   if (str.length === 0 || sz <= 0 || sz > str.length) {
     console.log ("");
     return "";
   }
+  
   var retorno = ""
   while (str.length!==0)
   {
@@ -96,6 +112,7 @@ function revrot(str, sz) {
     str = str.slice(sz);
     }
   }
+  
   console.log("retorno: "+retorno)
   return (retorno);
 }
